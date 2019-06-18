@@ -100,7 +100,7 @@ if ( isset($data['do_signup'])  )
 </head>
 
 <body>
-    <header style="background-image: url('./bg.jpg');">
+    <header style="background-image: url('./img/bg.jpg');">
         <div class="content">
             <h3>Регистрация</h3>
             <div class="form">

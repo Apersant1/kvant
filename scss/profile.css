@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  outline: none;
+}
+
+body {
+  width: 100%;
+  background-image: url("/img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 200px;
+}
+
+body header .page-name {
+  display: block;
+  color: white;
+  margin-left: 150px;
+  font-family: 'BankGothicRUSS';
+  font-size: 3em;
+}
+
+body header .nick-logout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 50%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+body header .nick-logout h5 {
+  margin-right: 20px;
+  color: white;
+  font-size: 1.3em;
+  margin-top: 10px;
+}
+
+body header .nick-logout span {
+  margin-right: 20px;
+  color: white;
+  font-size: 1.5em;
+}
+
+body header .nick-logout a {
+  color: gray;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 5px;
+  border-bottom: solid #fff;
+  border-bottom-width: 2px;
+}
+
+body header .nick-logout a:hover {
+  border-bottom: solid #fff;
+  border-bottom-width: 5px;
+  color: white;
+}
+
+body main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .man-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 15%;
+  margin-left: 10%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 700px;
+}
+
+body main .man-info #avatar {
+  border-radius: 20px;
+  width: 285px;
+  height: 285px;
+  -webkit-box-shadow: 0px 1px 10px 1px #000;
+  box-shadow: 0px 1px 10px 1px #000;
+}
+
+body main .man-info .score {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 20px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #cfcfcf;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+body main .man-info .score img {
+  width: 30px;
+  margin-right: 5px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+body main .man-info .score span {
+  font-size: 30px;
+  font-family: 'BankGothicRUSS';
+}
+
+body main .man-info .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: #fff;
+}
+
+body main .man-info .info span {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+body main .man-info .info span nav {
+  font-family: "BankGothicRUSS";
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+
+body main .opportunuties {
+  width: 60%;
+  height: 700px;
+  margin-left: 5%;
+}
+
+.container--tabs {
+  margin: 2rem;
+}
+
+.container--tabs .nav-tabs {
+  float: left;
+  width: 100%;
+  margin: 0;
+  list-style-type: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.container--tabs .nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+
+.container--tabs .nav-tabs > li > a {
+  float: left;
+  margin-right: 2px;
+  line-height: 1.42857143;
+  padding: 10px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  background-color: #fcfcfc;
+}
+
+.container--tabs .nav-tabs > li > a:hover {
+  border-color: #eee #eee #ddd;
+}
+
+.container--tabs .nav-tabs > li.active > a,
+.container--tabs .nav-tabs > li.active > a:hover,
+.container--tabs .nav-tabs > li.active > a:focus {
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+
+.tab-content {
+  float: left;
+  width: 100%;
+}
+
+.tab-content > .tab-pane {
+  display: none;
+}
+
+.tab-content > .tab-pane.active {
+  display: block;
+  padding: 2.5% 3.5%;
+  background-color: #efefef;
+  height: auto;
+}
+
+.tab-content > .active {
+  display: block;
+}
+/*# sourceMappingURL=profile.css.map */

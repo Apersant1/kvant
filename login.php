@@ -66,7 +66,7 @@ require "/DataBase/db.php";
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- connetcting styles -->
-    <link rel="stylesheet" href="/SingIN/scss/style.css">
+    <link rel="stylesheet" href="/scss/login_style.css">
     <link rel="stylesheet" href="/fonts/fonts.css">
 
     <!-- connetcting styles -->
@@ -89,7 +89,7 @@ require "/DataBase/db.php";
     margin-top: 100px;
 }
     </style>
-    <header style="background-image: url('./bg.jpg');">
+    <header style="background-image: url('/img/bg.jpg');">
         <div class="content">
             <h3>Вход</h3>
             <div class="form">
