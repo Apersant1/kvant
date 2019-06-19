@@ -258,6 +258,10 @@ body main .opportunuties {
       -ms-flex-align: center;
           align-items: center;
   height: 70px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border-radius: 7px;
   background-color: #8b7c7c;
 }
