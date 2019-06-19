@@ -265,15 +265,18 @@ body main .opportunuties {
 .archivments .archivment .circle-avatar {
   height: 30px;
   width: 30px;
+  margin-left: 20px;
   background-color: #000;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  margin-right: 10px;
 }
 
 .archivments .archivment .archivment-info {
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
