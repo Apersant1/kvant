@@ -245,7 +245,7 @@ body main .opportunuties {
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2vw;
-  width: 80%;
+  width: 100%;
 }
 
 .archivments .archivment {
