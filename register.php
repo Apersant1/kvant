@@ -63,6 +63,7 @@ if ( isset($data['do_signup'])  )
         $user->email = $data['email'];
         $user->password = md5($data['password']);
         R::store($user);
+        
         header('Location: /login.php');
 
     }else{
