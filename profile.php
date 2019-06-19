@@ -113,22 +113,28 @@ require "/DataBase/db.php";
                                     <div class="archivment">
 
                                         <div class="circle-avatar"></div>
-                                        <span>God mode</span><br>
-                                        <nav>Выполнить 5 проектов</nav>
+                                        <div class="archivment-info">
+                                            <span>God mode</span><br>
+                                            <nav>Выполнить 5 проектов</nav>
+                                        </div>
 
                                     </div>
                                     <div class="archivment">
 
                                         <div class="circle-avatar"></div>
-                                        <span>Архиватор</span><br>
-                                        <nav>Не закончить 2 проекта</nav>
+                                        <div class="archivment-info">
+                                            <span>Архиватор</span><br>
+                                            <nav>Не закончить 2 проекта</nav>
+                                        </div>
 
                                     </div>
                                     <div class="archivment">
 
                                         <div class="circle-avatar"></div>
-                                        <span>Лучший друг</span><br>
-                                        <nav>Зафрендить 10 человек</nav>
+                                        <div class="archivment-info">
+                                            <span>Лучший друг</span><br>
+                                            <nav>Зафрендить 10 человек</nav>
+                                        </div>
 
                                     </div>
 

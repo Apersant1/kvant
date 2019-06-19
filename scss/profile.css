@@ -258,10 +258,6 @@ body main .opportunuties {
       -ms-flex-align: center;
           align-items: center;
   height: 70px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   border-radius: 7px;
   background-color: #8b7c7c;
 }
@@ -275,5 +271,15 @@ body main .opportunuties {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+}
+
+.archivments .archivment .archivment-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 /*# sourceMappingURL=profile.css.map */

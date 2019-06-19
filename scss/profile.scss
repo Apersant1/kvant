@@ -243,7 +243,6 @@ body main .opportunuties {
         width: 250px;
         align-items: center;
         height: 70px;
-        flex-direction: column;
         border-radius: 7px;
         background-color: #8b7c7c;
         .circle-avatar {
@@ -255,6 +254,10 @@ body main .opportunuties {
             -moz-border-radius: 50%;
             -ms-border-radius: 50%;
             -o-border-radius: 50%;
+        }
+        .archivment-info {
+            display: flex;
+            flex-direction: column;
         }
     }
 }
