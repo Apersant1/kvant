@@ -199,8 +199,8 @@ header .content .form .submit {
   height: 45px;
   -webkit-transition: all 5s;
   transition: all 5s;
-  font-size: 20px;
-  font-size: 22px;
+  font-size: 18px;
+  padding: 5px;
   border: none;
   border-radius: 20px;
   outline: none;
