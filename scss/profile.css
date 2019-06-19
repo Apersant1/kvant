@@ -185,7 +185,6 @@ body main .opportunuties {
   width: 100%;
   margin: 0;
   list-style-type: none;
-  border-bottom: 1px solid #ddd;
 }
 
 .container--tabs .nav-tabs > li {
