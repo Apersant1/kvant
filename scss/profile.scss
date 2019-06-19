@@ -191,11 +191,10 @@ body main .opportunuties {
                 line-height: 1.42857143;
                 padding: 10px;
                 text-decoration: none;
-                border: 1px solid transparent;
                 border-radius: 4px 4px 0 0;
                 background-color: #fcfcfc;
                 &:hover {
-                    border-color: #eee #eee #ddd;
+                    border-color: #eee;
                 }
             }
             &.active {
