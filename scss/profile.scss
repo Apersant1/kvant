@@ -244,12 +244,12 @@ body main .opportunuties {
         align-items: center;
         height: 70px;
         border-radius: 7px;
-        background-color: #8b7c7c;
+        background-color: #b6a8a8;
         .circle-avatar {
             height: 30px;
             width: 30px;
             margin-left: 20px;
-            background-color: #000;
+            background-color: rgb(126, 122, 122);
             border-radius: 50%;
             -webkit-border-radius: 50%;
             -moz-border-radius: 50%;
@@ -265,6 +265,7 @@ body main .opportunuties {
                 margin-top: 5px;
             }
             nav {
+                display: block;
                 margin-top: -5px;
             }
         }

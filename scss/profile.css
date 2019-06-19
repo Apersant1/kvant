@@ -259,14 +259,14 @@ body main .opportunuties {
           align-items: center;
   height: 70px;
   border-radius: 7px;
-  background-color: #8b7c7c;
+  background-color: #b6a8a8;
 }
 
 .archivments .archivment .circle-avatar {
   height: 30px;
   width: 30px;
   margin-left: 20px;
-  background-color: #000;
+  background-color: #7e7a7a;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -291,6 +291,7 @@ body main .opportunuties {
 }
 
 .archivments .archivment .archivment-info nav {
+  display: block;
   margin-top: -5px;
 }
 /*# sourceMappingURL=profile.css.map */
