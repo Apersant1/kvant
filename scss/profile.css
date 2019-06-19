@@ -248,7 +248,7 @@ body main .opportunuties {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 150px;
+  width: 250px;
   height: 40px;
   background-color: #8b7c7c;
 }
