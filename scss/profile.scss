@@ -263,14 +263,17 @@ body main .opportunuties {
             margin-right: 10px;
         }
         .archivment-info {
+            color: #eee;
             text-align: center;
             display: flex;
             flex-direction: column;
             span {
                 margin-top: 5px;
+                font-size: 20px;
             }
             nav {
                 display: block;
+                font-size: 18px;
                 margin-top: -5px;
             }
         }

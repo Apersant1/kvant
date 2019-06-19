@@ -283,6 +283,7 @@ body main .opportunuties {
 }
 
 .archivments .archivment .archivment-info {
+  color: #eee;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -295,10 +296,12 @@ body main .opportunuties {
 
 .archivments .archivment .archivment-info span {
   margin-top: 5px;
+  font-size: 20px;
 }
 
 .archivments .archivment .archivment-info nav {
   display: block;
+  font-size: 18px;
   margin-top: -5px;
 }
 /*# sourceMappingURL=profile.css.map */
