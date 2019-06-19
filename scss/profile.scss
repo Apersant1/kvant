@@ -234,6 +234,9 @@ body main .opportunuties {
 // стили для блока с ачивками
 .archivments {
     display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vw;
     width: 80%;
     .archivment {
         display: flex;
