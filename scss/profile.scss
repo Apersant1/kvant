@@ -217,13 +217,13 @@ body main .opportunuties {
 .tab-content {
     float: left;
     width: 100%;
-    border-radius: 5px;
     >.tab-pane {
         display: none;
         &.active {
             display: block;
             padding: 2.5% 3.5%;
             background-color: #efefef;
+            border-radius: 5px;
             height: auto;
         }
     }
