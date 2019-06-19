@@ -221,6 +221,7 @@ body main .opportunuties {
 .tab-content {
   float: left;
   width: 100%;
+  border-radius: 5px;
 }
 
 .tab-content > .tab-pane {
