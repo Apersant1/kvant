@@ -183,6 +183,7 @@ body main .opportunuties {
 .container--tabs .nav-tabs {
   float: left;
   width: 100%;
+  border: none;
   margin: 0;
   list-style-type: none;
 }
