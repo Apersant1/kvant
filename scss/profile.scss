@@ -241,7 +241,9 @@ body main .opportunuties {
     .archivment {
         display: flex;
         width: 250px;
+        align-items: center;
         height: 70px;
+        border-radius: 7px;
         background-color: #8b7c7c;
         .circle-avatar {
             height: 30px;
