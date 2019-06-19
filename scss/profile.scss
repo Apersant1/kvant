@@ -235,11 +235,20 @@ body main .opportunuties {
 .archivments {
     display: grid;
     width: 80%;
-    height: auto;
     .archivment {
         display: flex;
         width: 150px;
         height: 40px;
-        background-color: #cfcfcf;
+        background-color: #8b7c7c;
+        .circle-avatar {
+            height: 30px;
+            width: 30px;
+            background-color: #000;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
     }
 }
