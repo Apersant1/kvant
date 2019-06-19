@@ -230,7 +230,7 @@ body main .opportunuties {
   background-color: #efefef;
   border-radius: 0 5px 5px 5px;
   height: auto;
-  border: 1px solid #000;
+  border: 5px solid rgba(255, 72, 0, 0.856);
 }
 
 .tab-content > .active {
