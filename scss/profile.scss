@@ -231,7 +231,7 @@ body main .opportunuties {
 }
 
 // стили для блока с ачивками
-archivments {
+.archivments {
     display: flex;
     margin-top: 5%;
     // grid-template-rows: 1fr 1fr;
@@ -243,7 +243,7 @@ archivments {
     }
     .archivment {
         display: flex;
-        width: 300px;
+        width: 30%;
         align-items: center;
         height: 90px;
         box-shadow: 0px 1px 10px 1px #000;
