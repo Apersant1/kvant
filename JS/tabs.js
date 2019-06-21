@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var item_num = $('nav li').length + 1;
+    var item_num = $('opp-droplist').length + 1;
     var btn_state = true;
 
     $('nav li').hover(function() {
@@ -8,7 +8,7 @@ $(document).ready(function() {
         $(this).removeClass('hover');
     });
 
-    $('nav li').on('click', function() {
+    $('opp-droplist').on('click', function() {
         if (btn_state) {
             btn_state = !btn_state;
             $('nav li').removeClass('currentPage');
