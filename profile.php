@@ -76,15 +76,16 @@ require "/DataBase/db.php";
 
 
         <article class="opportunuties">
-
             <div class="wrapper">
-                
-                <nav class="tab-nav">
+                <span>
+                    <h1>Возможности</h1>
+                </span>
+                <nav class="opp-droplist">
                     <ul>
-                        <li class="gnav1">Tab1</li>
-                        <li class="gnav2">Tab2</li>
-                        <li class="gnav3">Tab3</li>
-                        <li class="gnav4">Tab4</li>
+                        <li class="gnav1">Проекты</li>
+                        <li class="gnav2">Достижения</li>
+                        <li class="gnav3">Друзья</li>
+                        <li class="gnav4">Чат</li>
                     </ul>
                 </nav>
                 <div class="contents" id="contents">
@@ -113,10 +114,16 @@ require "/DataBase/db.php";
                                 <p>This is tab four.</p>
                             </section>
                         </article>
-                        
+                        <article id="page5">
+                            <section>
+                                <h1>Tab5 Title</h1>
+                                <p>This is tab five</p>
+                            </section>
+                        </article>
                     </div>
                 </div>
             </div>
+
 
 
 

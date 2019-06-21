@@ -172,14 +172,17 @@ body main .man-info .info span nav {
 
 body main .opportunuties {
   width: 60%;
-  height: 700px;
   margin-left: 5%;
+  height: 100%;
+  padding: 1.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
 }
 
 .wrapper {
   width: 100%;
   height: 100%;
-  margin: auto;
   border-radius: 8px;
   background: #f0f0f0;
   position: relative;
@@ -187,59 +190,53 @@ body main .opportunuties {
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-.tab-nav {
-  width: 100%;
+span h1 {
+  background: #f0f0f0;
+  color: #555;
+  padding: 1rem;
+  border-radius: 8px 8px 0 0;
+  -webkit-box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 8;
+}
+
+.opp-droplist {
   background: linear-gradient(135deg, #fcc274 0%, #eb48a1 100%);
+  border-right: 1px solid #fff;
+  width: 10%;
+  height: calc(100% - 3rem);
+  border-radius: 0 0 0 8px;
 }
 
-@media (min-width: 769px) {
-  .tab-nav {
-    float: left;
-    width: 96px;
-    height: calc(100% - 3rem);
-    border-radius: 0 0 0 8px;
-  }
-}
-
-.tab-nav ul {
+.opp-droplist ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  list-style: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-@media (min-width: 769px) {
-  .tab-nav ul {
-    display: block;
-  }
-}
-
-.tab-nav li {
+.opp-droplist li {
   line-height: 3;
   padding: 0 1rem;
-  border-right: 1px solid #f0f0f0;
   cursor: pointer;
   color: #fff;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-@media (min-width: 769px) {
-  .tab-nav li {
-    border-bottom: 1px solid #f0f0f0;
-    border-right: none;
-  }
-}
-
-.tab-nav li.hover {
+.opp-droplist li.hover {
   background: rgba(255, 255, 255, 0.2);
 }
 
-.tab-nav li.pressed {
+.opp-droplist li.pressed {
   background: rgba(255, 255, 255, 0.7);
 }
 
-.tab-nav li.currentPage {
+.opp-droplist li.currentPage {
   background: rgba(255, 255, 255, 0.5);
 }
 
@@ -248,7 +245,7 @@ body main .opportunuties {
           box-sizing: border-box;
   position: absolute;
   height: calc(100% - 6rem);
-  width: 100%;
+  width: 80%;
   top: 6rem;
   left: 0;
   border-radius: 0 0 8px 0;
@@ -256,7 +253,19 @@ body main .opportunuties {
   background: linear-gradient(135deg, #1c1a30 0%, #38335d 100%);
 }
 
-#page1 #page2 #page3 {
+@media (min-width: 769px) {
+  #contents {
+    height: calc(100% - 3rem);
+    width: calc(100% - 9.4rem);
+    top: 3rem;
+    left: 150px;
+  }
+}
+
+#page1,
+#page2,
+#page3,
+#page4 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -268,45 +277,72 @@ body main .opportunuties {
   left: -100%;
 }
 
-#page1 #page2 #page3.hide {
+#page1.hide,
+#page2.hide,
+#page3.hide,
+#page4.hide {
   -webkit-transition: left 0s 0.5s;
   transition: left 0s 0.5s;
 }
 
-#page1 #page2 #page3:nth-of-type(1) {
+#page1:nth-of-type(1),
+#page2:nth-of-type(1),
+#page3:nth-of-type(1),
+#page4:nth-of-type(1) {
   z-index: 5;
 }
 
-#page1 #page2 #page3:nth-of-type(2) {
+#page1:nth-of-type(2),
+#page2:nth-of-type(2),
+#page3:nth-of-type(2),
+#page4:nth-of-type(2) {
   z-index: 4;
 }
 
-#page1 #page2 #page3:nth-of-type(3) {
+#page1:nth-of-type(3),
+#page2:nth-of-type(3),
+#page3:nth-of-type(3),
+#page4:nth-of-type(3) {
   z-index: 3;
 }
 
-#page1 #page2 #page3:nth-of-type(4) {
+#page1:nth-of-type(4),
+#page2:nth-of-type(4),
+#page3:nth-of-type(4),
+#page4:nth-of-type(4) {
   z-index: 2;
 }
 
-#page1 #page2 #page3:nth-of-type(5) {
+#page1:nth-of-type(5),
+#page2:nth-of-type(5),
+#page3:nth-of-type(5),
+#page4:nth-of-type(5) {
   z-index: 1;
 }
 
-#page1 #page2 #page3.show {
+#page1.show,
+#page2.show,
+#page3.show,
+#page4.show {
   -webkit-transition: left 0.5s;
   transition: left 0.5s;
   left: 0;
   z-index: 6;
 }
 
-#page1 #page2 #page3 section {
+#page1 section,
+#page2 section,
+#page3 section,
+#page4 section {
   width: 100%;
+  color: #fff;
 }
 
-#page1 #page2 #page3 section h1 {
+#page1 section h1,
+#page2 section h1,
+#page3 section h1,
+#page4 section h1 {
   font-size: 1.5rem;
   margin: 0 0 2rem 0;
-  color: #fff;
 }
 /*# sourceMappingURL=profile.css.map */
