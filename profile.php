@@ -76,17 +76,80 @@ require "/DataBase/db.php";
 
 
         <article class="opportunuties">
-            <div class="wrapper">
-                <h2>Elastic Tabs</h2>
-                <h6>Click on tabs to see them in action</h6>
-                <nav class="tabs">
-                    <div class="selector"></div>
-                    <a href="#" class="active"><i class="fab fa-superpowers"></i>Avengers</a>
-                    <a href="#"><i class="fas fa-hand-rock"></i>Hulk</a>
-                    <a href="#"><i class="fas fa-bolt"></i>Thor</a>
-                    <a href="#"><i class="fas fa-burn"></i>Marvel</a>
-                </nav>
-            </div>
+
+
+            <section class="design-process-section" id="process-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <!-- design process steps-->
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs process-model more-icon-preocess" role="tablist">
+                                <li role="presentation" class="active"><a href="#discover" aria-controls="discover"
+                                        role="tab" data-toggle="tab"><i class="fa fa-search" aria-hidden="true"></i>
+                                        <p>Discover</p>
+                                    </a></li>
+                                <li role="presentation"><a href="#strategy" aria-controls="strategy" role="tab"
+                                        data-toggle="tab"><i class="fa fa-send-o" aria-hidden="true"></i>
+                                        <p>Strategy</p>
+                                    </a></li>
+                                <li role="presentation"><a href="#optimization" aria-controls="optimization" role="tab"
+                                        data-toggle="tab"><i class="fa fa-qrcode" aria-hidden="true"></i>
+                                        <p>Optimization</p>
+                                    </a></li>
+                                <li role="presentation"><a href="#content" aria-controls="content" role="tab"
+                                        data-toggle="tab"><i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                                        <p>Content</p>
+                                    </a></li>
+                                <li role="presentation"><a href="#reporting" aria-controls="reporting" role="tab"
+                                        data-toggle="tab"><i class="fa fa-clipboard" aria-hidden="true"></i>
+                                        <p>Reporting</p>
+                                    </a></li>
+                            </ul>
+                            <!-- end design process steps-->
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="discover">
+                                    <div class="design-process-content">
+                                        <h3 class="semi-bold">Discovery</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                            nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="strategy">
+                                    <div class="design-process-content">
+                                        <h3 class="semi-bold">Strategy</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                            nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="optimization">
+                                    <div class="design-process-content">
+                                        <h3 class="semi-bold">Optimization</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                            nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="content">
+                                    <div class="design-process-content">
+                                        <h3 class="semi-bold">Content</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                            nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="reporting">
+                                    <div class="design-process-content">
+                                        <h3>Reporting</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                                            nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+
 
         </article>
 
@@ -98,6 +161,9 @@ require "/DataBase/db.php";
     <script src="/JS/tabs.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 
 
 </body>
