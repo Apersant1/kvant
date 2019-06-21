@@ -75,8 +75,19 @@ require "/DataBase/db.php";
         </article>
 
 
-        <article  class="opportunuties">
-           
+        <article class="opportunuties">
+            <div class="wrapper">
+                <h2>Elastic Tabs</h2>
+                <h6>Click on tabs to see them in action</h6>
+                <nav class="tabs">
+                    <div class="selector"></div>
+                    <a href="#" class="active"><i class="fab fa-superpowers"></i>Avengers</a>
+                    <a href="#"><i class="fas fa-hand-rock"></i>Hulk</a>
+                    <a href="#"><i class="fas fa-bolt"></i>Thor</a>
+                    <a href="#"><i class="fas fa-burn"></i>Marvel</a>
+                </nav>
+            </div>
+
         </article>
 
 
@@ -85,6 +96,8 @@ require "/DataBase/db.php";
     </main>
 
     <script src="/JS/tabs.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 
 </body>
