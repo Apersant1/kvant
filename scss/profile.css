@@ -227,7 +227,7 @@ body main .opportunuties {
 .tab-content > .tab-pane.active {
   display: block;
   padding: 2.5% 3.5%;
-  background-color: #efefef;
+  background-color: #bba9a9;
   border-radius: 0 5px 5px 5px;
   height: auto;
   border: 3px solid rgba(255, 72, 0, 0.856);

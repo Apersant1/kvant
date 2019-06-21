@@ -109,68 +109,8 @@ require "/DataBase/db.php";
                                 <h3>Ваши достижения</h3>
 
                                 <!-- здесь блоки с ачивками -->
-                                <div class="archivments">
-                                    <div class="archivment">
-
-                                        <div class="circle-avatar"></div>
-                                        <div class="archivment-info">
-                                            <span>Лучший друг</span>
-                                            <nav>Зафрендить 10 человек</nav>
-                                        </div>
-
-                                    </div>
-                                    <div class="archivment">
-
-                                        <div class="circle-avatar"></div>
-                                        <div class="archivment-info">
-                                            <span>Лучший друг</span>
-                                            <nav>Зафрендить 10 человек</nav>
-                                        </div>
-
-                                    </div>
-                                    <div class="archivment">
-
-                                        <div class="circle-avatar"></div>
-                                        <div class="archivment-info">
-                                            <span>Лучший друг</span>
-                                            <nav>Зафрендить 10 человек</nav>
-                                        </div>
-
-                                    </div>
-                                    <div class="archivment">
-
-                                        <div class="circle-avatar"></div>
-                                        <div class="archivment-info">
-                                            <span>Лучший друг</span>
-                                            <nav>Зафрендить 10 человек</nav>
-                                        </div>
-
-                                    </div>
-                                    <div class="archivment">
-
-                                        <div class="circle-avatar"></div>
-                                        <div class="archivment-info">
-                                            <span>Лучший друг</span>
-                                            <nav>Зафрендить 10 человек</nav>
-                                        </div>
-
-                                    </div>
-                                    <div class="archivment">
-
-                                        <div class="circle-avatar"></div>
-                                        <div class="archivment-info">
-                                            <span>Лучший друг</span>
-                                            <nav>Зафрендить 10 человек</nav>
-                                        </div>
-
-                                    </div>
-                                    <div class="archivment">
-
-                                        <div class="circle-avatar"></div>
-                                        <div class="archivment-info">
-                                            <span>Лучший друг</span>
-                                            <nav>Зафрендить 10 человек</nav>
-                                        </div>
+                                
+                                
 
                                     </div>
 
