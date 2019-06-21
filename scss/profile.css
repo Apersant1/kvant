@@ -171,6 +171,9 @@ body main .man-info .info span nav {
 }
 
 body main .opportunuties {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 60%;
   height: 700px;
   margin-left: 5%;
