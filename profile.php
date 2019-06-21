@@ -76,7 +76,22 @@ require "/DataBase/db.php";
 
 
         <article class="opportunuties">
-            
+            <ul class="tabs">
+                <li class="active" data-content-id="team">Team</li>
+                <li data-content-id="about">About</li>
+                <li data-content-id="contact">Contact</li>
+            </ul>
+            <div class="content">
+                <p id="team" style="display:block">
+                    Team
+                </p>
+                <p id="about">
+                    About
+                </p>
+                <p id="contact">
+                    Contact
+                </p>
+            </div>
         </article>
 
 
