@@ -79,7 +79,7 @@ require "/DataBase/db.php";
 
             <div class="wrapper">
                 
-                <nav>
+                <nav class="tabs-nav">
                     <ul>
                         <li class="gnav1">Tab1</li>
                         <li class="gnav2">Tab2</li>

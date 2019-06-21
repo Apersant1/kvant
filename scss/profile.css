@@ -188,24 +188,13 @@ body main .opportunuties {
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-header h1 {
-  background: #f0f0f0;
-  color: #555;
-  padding: 1rem;
-  border-radius: 8px 8px 0 0;
-  -webkit-box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.3);
-  position: relative;
-  z-index: 8;
-}
-
-nav {
+.tabs-nav {
   width: 100%;
   background: linear-gradient(135deg, #fcc274 0%, #eb48a1 100%);
 }
 
 @media (min-width: 769px) {
-  nav {
+  .tabs-nav {
     float: left;
     width: 96px;
     height: calc(100% - 3rem);
@@ -213,19 +202,19 @@ nav {
   }
 }
 
-nav ul {
+.tabs-nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 @media (min-width: 769px) {
-  nav ul {
+  .tabs-nav ul {
     display: block;
   }
 }
 
-nav li {
+.tabs-nav li {
   line-height: 3;
   padding: 0 1rem;
   border-right: 1px solid #f0f0f0;
@@ -236,21 +225,21 @@ nav li {
 }
 
 @media (min-width: 769px) {
-  nav li {
+  .tabs-nav li {
     border-bottom: 1px solid #f0f0f0;
     border-right: none;
   }
 }
 
-nav li.hover {
+.tabs-nav li.hover {
   background: rgba(255, 255, 255, 0.2);
 }
 
-nav li.pressed {
+.tabs-nav li.pressed {
   background: rgba(255, 255, 255, 0.7);
 }
 
-nav li.currentPage {
+.tabs-nav li.currentPage {
   background: rgba(255, 255, 255, 0.5);
 }
 
