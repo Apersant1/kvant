@@ -193,6 +193,7 @@ body main .opportunuties {
 span h1 {
   background: #f0f0f0;
   color: #555;
+  font-size: 30px;
   padding: 1rem;
   border-radius: 8px 8px 0 0;
   -webkit-box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.3);
@@ -203,8 +204,8 @@ span h1 {
 
 .opp-droplist {
   background: linear-gradient(135deg, #fcc274 0%, #eb48a1 100%);
-  width: 10%;
-  height: calc(100% - 3rem);
+  width: 15%;
+  height: 100%;
   border-radius: 0 0 0 8px;
 }
 
@@ -212,11 +213,11 @@ span h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  list-style: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  list-style: none;
 }
 
 .opp-droplist li {
@@ -245,8 +246,8 @@ span h1 {
           box-sizing: border-box;
   position: absolute;
   height: calc(100% - 6rem);
-  width: 80%;
-  top: 6rem;
+  width: 50%;
+  top: 3rem;
   left: 0;
   border-radius: 0 0 8px 0;
   overflow: hidden;
@@ -262,86 +263,55 @@ span h1 {
   }
 }
 
-#page1,
-#page2,
-#page3,
-#page4 {
+#page {
   position: absolute;
   height: 100%;
   width: 100%;
   padding: 2rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  color: #fff;
   background: linear-gradient(135deg, #38335d 0%, #1c1a30 100%);
-  top: 0;
-  left: -100%;
 }
 
-#page1.hide,
-#page2.hide,
-#page3.hide,
-#page4.hide {
+#page.hide {
   -webkit-transition: left 0s 0.5s;
   transition: left 0s 0.5s;
 }
 
-#page1:nth-of-type(1),
-#page2:nth-of-type(1),
-#page3:nth-of-type(1),
-#page4:nth-of-type(1) {
+#page:nth-of-type(1) {
   z-index: 5;
 }
 
-#page1:nth-of-type(2),
-#page2:nth-of-type(2),
-#page3:nth-of-type(2),
-#page4:nth-of-type(2) {
+#page:nth-of-type(2) {
   z-index: 4;
 }
 
-#page1:nth-of-type(3),
-#page2:nth-of-type(3),
-#page3:nth-of-type(3),
-#page4:nth-of-type(3) {
+#page:nth-of-type(3) {
   z-index: 3;
 }
 
-#page1:nth-of-type(4),
-#page2:nth-of-type(4),
-#page3:nth-of-type(4),
-#page4:nth-of-type(4) {
+#page:nth-of-type(4) {
   z-index: 2;
 }
 
-#page1:nth-of-type(5),
-#page2:nth-of-type(5),
-#page3:nth-of-type(5),
-#page4:nth-of-type(5) {
+#page:nth-of-type(5) {
   z-index: 1;
 }
 
-#page1.show,
-#page2.show,
-#page3.show,
-#page4.show {
+#page.show {
   -webkit-transition: left 0.5s;
   transition: left 0.5s;
   left: 0;
   z-index: 6;
 }
 
-#page1 section,
-#page2 section,
-#page3 section,
-#page4 section {
+#page section {
   width: 100%;
   color: #fff;
 }
 
-#page1 section h1,
-#page2 section h1,
-#page3 section h1,
-#page4 section h1 {
+#page section h1 {
   font-size: 1.5rem;
   margin: 0 0 2rem 0;
 }

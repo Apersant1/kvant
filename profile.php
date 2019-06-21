@@ -84,42 +84,24 @@ require "/DataBase/db.php";
                     <ul>
                         <li class="gnav1">Проекты</li>
                         <li class="gnav2">Достижения</li>
-                        <li class="gnav3">Друзья</li>
-                        <li class="gnav4">Чат</li>
+                       
                     </ul>
                 </nav>
                 <div class="contents" id="contents">
                     <div class="container">
-                        <article id="page1" class="show top">
+                        <div id="page" class="show top">
                             <section>
                                 <h1>Tab1 Title</h1>
                                 <p>This is tab one.</p>
                             </section>
-                        </article>
-                        <article id="page2">
+</div>
+                        <div id="page">
                             <section>
                                 <h1>Tab2 Title</h1>
                                 <p>This is tab two.</p>
                             </section>
-                        </article>
-                        <article id="page3">
-                            <section>
-                                <h1>Tab3 Title</h1>
-                                <p>This is tab three.</p>
-                            </section>
-                        </article>
-                        <article id="page4">
-                            <section>
-                                <h1>Tab4 Title</h1>
-                                <p>This is tab four.</p>
-                            </section>
-                        </article>
-                        <article id="page5">
-                            <section>
-                                <h1>Tab5 Title</h1>
-                                <p>This is tab five</p>
-                            </section>
-                        </article>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -142,6 +124,8 @@ require "/DataBase/db.php";
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+   
+   
 
 
 </body>

@@ -191,7 +191,7 @@ span {
     h1 {
         background: #f0f0f0; //linear-gradient(135deg, #0b5386 0%,#09256c 100%); 
         color: #555;
-        //text-transform:uppercase;
+        font-size: 30px;
         padding: 1rem;
         border-radius: 8px 8px 0 0;
         box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.3);
@@ -202,13 +202,13 @@ span {
 
 .opp-droplist {
     background: linear-gradient(135deg, #fcc274 0%, #eb48a1 100%);
-    width: 10%;
-    height: calc(100% - 3rem);
+    width: 15%;
+    height: 100%;
     border-radius: 0 0 0 8px;
     ul {
         display: flex;
-        flex-direction: column;
         list-style: none;
+        flex-direction: column;
     }
     li {
         line-height: 3;
@@ -232,8 +232,8 @@ span {
     box-sizing: border-box;
     position: absolute;
     height: calc(100% - 6rem);
-    width: 80%;
-    top: 6rem;
+    width: 50%;
+    top: 3rem;
     left: 0;
     @media (min-width: 769px) {
         height: calc(100% - 3rem);
@@ -248,18 +248,16 @@ span {
     #38335d 100%);
 }
 
-#page1,
-#page2,
-#page3,
-#page4 {
+#page {
     position: absolute;
     height: 100%;
     width: 100%;
     padding: 2rem;
     box-sizing: border-box;
+    color: #fff;
     background: linear-gradient(135deg, #38335d 0%, #1c1a30 100%);
-    top: 0;
-    left: -100%;
+    // top: 0;
+    // left: -100%;
     &.hide {
         transition: left 0s 0.5s;
     }
