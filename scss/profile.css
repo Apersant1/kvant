@@ -227,7 +227,7 @@ body main .opportunuties {
 .tab-content > .tab-pane.active {
   display: block;
   padding: 2.5% 3.5%;
-  background-color: #bba9a9;
+  background-color: #efefef;
   border-radius: 0 5px 5px 5px;
   height: auto;
   border: 3px solid rgba(255, 72, 0, 0.856);
@@ -235,5 +235,28 @@ body main .opportunuties {
 
 .tab-content > .active {
   display: block;
+}
+
+.archivment-info {
+  color: #eee;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.archivment-info span {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.archivment-info nav {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=profile.css.map */

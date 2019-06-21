@@ -219,7 +219,7 @@ body main .opportunuties {
         &.active {
             display: block;
             padding: 2.5% 3.5%;
-            background-color: #bba9a9;
+            background-color: #efefef;
             border-radius: 0 5px 5px 5px;
             height: auto;
             border: 3px solid rgba(255, 72, 0, 0.856);
@@ -228,4 +228,7 @@ body main .opportunuties {
     >.active {
         display: block;
     }
+}
+
+
 }
