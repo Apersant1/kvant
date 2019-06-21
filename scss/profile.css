@@ -237,7 +237,7 @@ body main .opportunuties {
   display: block;
 }
 
-.archivments {
+archivments {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -246,11 +246,11 @@ body main .opportunuties {
   width: 100%;
 }
 
-.archivments h3 {
+archivments h3 {
   font-family: 'BankGothicRUSS';
 }
 
-.archivments .archivment {
+archivments .archivment {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -266,7 +266,7 @@ body main .opportunuties {
   background: radial-gradient(circle, #33243d 0%, rgba(253, 47, 29, 0.751138) 46%, #e66033 100%);
 }
 
-.archivments .archivment .circle-avatar {
+archivments .archivment .circle-avatar {
   height: 30px;
   width: 30px;
   margin-left: 20px;
@@ -279,7 +279,7 @@ body main .opportunuties {
   margin-right: 10px;
 }
 
-.archivments .archivment .archivment-info {
+archivments .archivment .archivment-info {
   color: #eee;
   text-align: center;
   display: -webkit-box;
@@ -291,12 +291,12 @@ body main .opportunuties {
           flex-direction: column;
 }
 
-.archivments .archivment .archivment-info span {
+archivments .archivment .archivment-info span {
   margin-top: 10px;
   font-size: 20px;
 }
 
-.archivments .archivment .archivment-info nav {
+archivments .archivment .archivment-info nav {
   display: block;
   font-size: 18px;
   margin-bottom: 10px;
