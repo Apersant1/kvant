@@ -78,76 +78,53 @@ require "/DataBase/db.php";
         <article class="opportunuties">
 
 
-            <section class="design-process-section" id="process-tab">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <!-- design process steps-->
-                            <!-- Nav tabs -->
-                            <ul class="nav nav-tabs process-model more-icon-preocess" role="tablist">
-                                <li role="presentation" class="active"><a href="#discover" aria-controls="discover"
-                                        role="tab" data-toggle="tab"><i class="fa fa-search" aria-hidden="true"></i>
-                                        <p>Discover</p>
-                                    </a></li>
-                                <li role="presentation"><a href="#strategy" aria-controls="strategy" role="tab"
-                                        data-toggle="tab"><i class="fa fa-send-o" aria-hidden="true"></i>
-                                        <p>Strategy</p>
-                                    </a></li>
-                                <li role="presentation"><a href="#optimization" aria-controls="optimization" role="tab"
-                                        data-toggle="tab"><i class="fa fa-qrcode" aria-hidden="true"></i>
-                                        <p>Optimization</p>
-                                    </a></li>
-                                <li role="presentation"><a href="#content" aria-controls="content" role="tab"
-                                        data-toggle="tab"><i class="fa fa-newspaper-o" aria-hidden="true"></i>
-                                        <p>Content</p>
-                                    </a></li>
-                                <li role="presentation"><a href="#reporting" aria-controls="reporting" role="tab"
-                                        data-toggle="tab"><i class="fa fa-clipboard" aria-hidden="true"></i>
-                                        <p>Reporting</p>
-                                    </a></li>
-                            </ul>
-                            <!-- end design process steps-->
-                            <!-- Tab panes -->
-                            <div class="tab-content">
-                                <div role="tabpanel" class="tab-pane active" id="discover">
-                                    <div class="design-process-content">
-                                        <h3 class="semi-bold">Discovery</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
-                                    </div>
-                                </div>
-                                <div role="tabpanel" class="tab-pane" id="strategy">
-                                    <div class="design-process-content">
-                                        <h3 class="semi-bold">Strategy</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
-                                    </div>
-                                </div>
-                                <div role="tabpanel" class="tab-pane" id="optimization">
-                                    <div class="design-process-content">
-                                        <h3 class="semi-bold">Optimization</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
-                                    </div>
-                                </div>
-                                <div role="tabpanel" class="tab-pane" id="content">
-                                    <div class="design-process-content">
-                                        <h3 class="semi-bold">Content</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
-                                    </div>
-                                </div>
-                                <div role="tabpanel" class="tab-pane" id="reporting">
-                                    <div class="design-process-content">
-                                        <h3>Reporting</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                            nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat. </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <div class="wrapper">
+                <header>
+                    <h1>Tab switch</h1>
+                </header>
+                <nav>
+                    <ul>
+                        <li class="gnav1">Tab1</li>
+                        <li class="gnav2">Tab2</li>
+                        <li class="gnav3">Tab3</li>
+                        <li class="gnav4">Tab4</li>
+                    </ul>
+                </nav>
+                <div class="contents" id="contents">
+                    <div class="container">
+                        <article id="page1" class="show top">
+                            <section>
+                                <h1>Tab1 Title</h1>
+                                <p>This is tab one.</p>
+                            </section>
+                        </article>
+                        <article id="page2">
+                            <section>
+                                <h1>Tab2 Title</h1>
+                                <p>This is tab two.</p>
+                            </section>
+                        </article>
+                        <article id="page3">
+                            <section>
+                                <h1>Tab3 Title</h1>
+                                <p>This is tab three.</p>
+                            </section>
+                        </article>
+                        <article id="page4">
+                            <section>
+                                <h1>Tab4 Title</h1>
+                                <p>This is tab four.</p>
+                            </section>
+                        </article>
+                        <article id="page5">
+                            <section>
+                                <h1>Tab5 Title</h1>
+                                <p>This is tab five</p>
+                            </section>
+                        </article>
                     </div>
-            </section>
+                </div>
+            </div>
 
 
 
