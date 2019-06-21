@@ -242,7 +242,7 @@ body main .opportunuties {
   display: -ms-flexbox;
   display: flex;
   margin-top: 5%;
-  grid-gap: 2vw;
+  grid-gap: 1vw;
   width: 100%;
 }
 
