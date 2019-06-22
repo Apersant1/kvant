@@ -76,40 +76,40 @@ require "/DataBase/db.php";
 
 
         <article class="opportunuties">
-            <div class="wrapper">
-                <span>
-                    <h1>Возможности</h1>
-                </span>
-                <nav class="opp-droplist">
-                    <ul>
-                        <li class="gnav1">Проекты</li>
-                        <li class="gnav2">Достижения</li>
-                       
-                    </ul>
-                </nav>
-                <div class="contents" id="contents">
-                    <div class="container">
-                        <div id="page" class="show top">
-                            <section>
-                                <h1>Tab1 Title</h1>
-                                <p>This is tab one.</p>
-                            </section>
+
+
+        <div class="wrapper">
+  <ul class="tabs clearfix" data-tabgroup="first-tab-group">
+    <li><a href="#tab1" class="active">Tab 1</a></li>
+    <li><a href="#tab2">Tab 2</a></li>
+    <li><a href="#tab3">Tab 3</a></li>
+    <li><a href="#tab4">Tab 4</a></li>
+    <li><a href="#tab5">Tab 5</a></li>
+  </ul>
+  <section id="first-tab-group" class="tabgroup">
+    <div id="tab1">
+      <h2>Heading 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla deserunt consectetur ratione id tempore laborum laudantium facilis reprehenderit beatae dolores ipsum nesciunt alias iusto dicta eius itaque blanditiis modi velit.</p>
+    </div>
+    <div id="tab2">
+      <h2>Heading 2</h2>
+      <p>Adipisci autem obcaecati velit natus quos beatae explicabo at tempora minima voluptates deserunt eum consectetur reiciendis placeat dolorem repellat in nam asperiores impedit voluptas iure repellendus unde eveniet accusamus ex.</p>
+    </div>
+    <div id="tab3">
+      <h2>Heading 3</h2>
+      <p>Atque ratione soluta laboriosam illo inventore amet ipsum aliquam assumenda harum provident nam accusantium neque debitis obcaecati maxime officia saepe ad ducimus in quam libero vero quasi. Saepe sit nisi?</p>
+    </div>
+    <div id="tab4">
+      <h2>Heading 4</h2>
+      <p>Quidem perferendis id sapiente cumque ullam repellendus dolorum odit rerum quibusdam tempora voluptatibus ipsum. Maiores laborum velit aperiam dicta quisquam assumenda at esse exercitationem culpa sequi porro minus ipsa aut.</p>
+    </div>
+    <div id="tab5">
+      <h2>Heading 5</h2>
+      <p>Iste eligendi ratione libero impedit quos necessitatibus labore corporis deserunt quo porro hic eius delectus ea ad amet dolore officiis debitis! Libero officia magnam consequuntur dignissimos molestias quia modi repellat.</p>
+    </div>
+  </section>
 </div>
-                        <div id="page">
-                            <section>
-                                <h1>Tab2 Title</h1>
-                                <p>This is tab two.</p>
-                            </section>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
+            
 
         </article>
 
