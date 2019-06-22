@@ -241,7 +241,7 @@ span h1 {
   background: rgba(255, 255, 255, 0.5);
 }
 
-#contents {
+contents {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: absolute;
@@ -255,7 +255,7 @@ span h1 {
 }
 
 @media (min-width: 769px) {
-  #contents {
+  contents {
     height: calc(100% - 3rem);
     width: calc(100% - 9.4rem);
     top: 3rem;
