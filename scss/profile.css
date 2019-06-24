@@ -335,12 +335,13 @@ body main .opportunuties {
   display: flex;
   width: 30%;
   height: 30%;
+  background-color: #fff;
 }
 
 .block-friends .block-friend .circle-avatar {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #cfcfcf;
 }
 /*# sourceMappingURL=profile.css.map */
