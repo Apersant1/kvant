@@ -203,7 +203,84 @@ body main .opportunuties {
   z-index: 8;
 }
 
-article {
+.wrapper nav {
+  width: 100%;
+  background: linear-gradient(135deg, #fcc274 0%, #eb48a1 100%);
+}
+
+@media (min-width: 769px) {
+  .wrapper nav {
+    float: left;
+    width: 96px;
+    height: calc(100% - 3rem);
+    border-radius: 0 0 0 8px;
+  }
+}
+
+.wrapper nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width: 769px) {
+  .wrapper nav ul {
+    display: block;
+  }
+}
+
+.wrapper nav li {
+  line-height: 3;
+  padding: 0 1rem;
+  border-right: 1px solid #f0f0f0;
+  cursor: pointer;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media (min-width: 769px) {
+  .wrapper nav li {
+    border-bottom: 1px solid #f0f0f0;
+    border-right: none;
+  }
+}
+
+.wrapper nav li.hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.wrapper nav li.pressed {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.wrapper nav li.currentPage {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.wrapper #contents {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  height: calc(100% - 6rem);
+  width: 100%;
+  top: 6rem;
+  left: 0;
+  border-radius: 0 0 8px 0;
+  overflow: hidden;
+  background: linear-gradient(135deg, #1c1a30 0%, #38335d 100%);
+}
+
+@media (min-width: 769px) {
+  .wrapper #contents {
+    height: calc(100% - 3rem);
+    width: calc(100% - 6rem);
+    top: 3rem;
+    left: 96px;
+  }
+}
+
+.wrapper article {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -215,44 +292,44 @@ article {
   left: -100%;
 }
 
-article.hide {
+.wrapper article.hide {
   -webkit-transition: left 0s 0.5s;
   transition: left 0s 0.5s;
 }
 
-article:nth-of-type(1) {
+.wrapper article:nth-of-type(1) {
   z-index: 5;
 }
 
-article:nth-of-type(2) {
+.wrapper article:nth-of-type(2) {
   z-index: 4;
 }
 
-article:nth-of-type(3) {
+.wrapper article:nth-of-type(3) {
   z-index: 3;
 }
 
-article:nth-of-type(4) {
+.wrapper article:nth-of-type(4) {
   z-index: 2;
 }
 
-article:nth-of-type(5) {
+.wrapper article:nth-of-type(5) {
   z-index: 1;
 }
 
-article.show {
+.wrapper article.show {
   -webkit-transition: left 0.5s;
   transition: left 0.5s;
   left: 0;
   z-index: 6;
 }
 
-article section {
+.wrapper article section {
   width: 100%;
   color: #fff;
 }
 
-article section h1 {
+.wrapper article section h1 {
   font-size: 1.5rem;
   margin: 0 0 2rem 0;
 }
