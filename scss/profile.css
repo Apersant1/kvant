@@ -181,7 +181,6 @@ body main .opportunuties {
 }
 
 .wrapper {
-  overflow-y: scroll;
   height: 100%;
   width: 100%;
   display: -webkit-box;
@@ -318,6 +317,7 @@ body main .opportunuties {
 }
 
 .block-friends {
+  overflow-y: scroll;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
