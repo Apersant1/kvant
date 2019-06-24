@@ -102,13 +102,39 @@ require "/DataBase/db.php";
                                 <h1>Ваши друзья</h1>
 
                                 <div class="block-friends">
-                                   <div class="block-friend">
-                                       <div class="circle-avatar"></div>
-                                       <span>Александра Комарницкая</span>
-                                   </div>
-                                    
-                                
-                                
+                                    <div class="block-friend">
+                                        <div class="circle-avatar"><img src="" alt="">
+                                            <!--Здесь аватарка друга  -->
+                                        </div>
+                                        <span>Александра Комарницкая</span>
+                                    </div>
+                                    <div class="block-friend">
+                                        <div class="circle-avatar"><img src="" alt="">
+                                            <!--Здесь аватарка друга  -->
+                                        </div>
+                                        <span>Александра Комарницкая</span>
+                                    </div>
+                                    <div class="block-friend">
+                                        <div class="circle-avatar"><img src="" alt="">
+                                            <!--Здесь аватарка друга  -->
+                                        </div>
+                                        <span>Александра Комарницкая</span>
+                                    </div>
+                                    <div class="block-friend">
+                                        <div class="circle-avatar"><img src="" alt="">
+                                            <!--Здесь аватарка друга  -->
+                                        </div>
+                                        <span>Александра Комарницкая</span>
+                                    </div>
+                                    <div class="block-friend">
+                                        <div class="circle-avatar"><img src="" alt="">
+                                            <!--Здесь аватарка друга  -->
+                                        </div>
+                                        <span>Александра Комарницкая</span>
+                                    </div>
+
+
+
                                 </div>
 
                             </section>
