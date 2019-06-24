@@ -320,8 +320,19 @@ body main .opportunuties {
 .block-friends {
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  grid-gap: 2vw;
   width: 100%;
   height: 100%;
   background-color: #fff;
+}
+
+.block-friends div {
+  height: 30px;
+  width: 39px;
+  background-color: #000;
 }
 /*# sourceMappingURL=profile.css.map */
