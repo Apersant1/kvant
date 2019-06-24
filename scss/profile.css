@@ -355,4 +355,9 @@ body main .opportunuties {
   border-radius: 50%;
   background-color: #cfcfcf;
 }
+
+.block-friends .block-friend span {
+  font-family: 'Rubic';
+  color: #000;
+}
 /*# sourceMappingURL=profile.css.map */
