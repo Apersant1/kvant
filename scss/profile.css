@@ -181,6 +181,7 @@ body main .opportunuties {
 }
 
 .wrapper {
+  overflow-y: scroll;
   height: 100%;
   width: 100%;
   display: -webkit-box;
