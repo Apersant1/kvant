@@ -101,81 +101,18 @@ require "/DataBase/db.php";
                             <section>
                                 <h1>Ваши друзья</h1>
 
-                                <div class="friends">
-                                    <div class="friend">
-                                        <div class="circle-avatar"><img src=""><!-- Здесь аватврка юзера-->
-                                        </div>
-                                        <div class="friend-name"><span>
-                                                <!--Здесь имя или логин пользователя -->Александра Комарницкая</span>
-                                        </div>
-
-                                    </div>
-                                    <div class="friend">
-                                        <div class="circle-avatar"><img src=""><!-- Здесь аватврка юзера-->
-                                        </div>
-                                        <div class="friend-name"><span>
-                                                <!--Здесь имя или логин пользователя -->Александра Комарницкая</span>
-                                        </div>
-
-                                    </div>
-                                    <div class="friend">
-                                        <div class="circle-avatar"><img src=""><!-- Здесь аватврка юзера-->
-                                        </div>
-                                        <div class="friend-name"><span>
-                                                <!--Здесь имя или логин пользователя -->Александра Комарницкая</span>
-                                        </div>
-
-                                    </div>
-                                    <div class="friend">
-                                        <div class="circle-avatar"><img src=""><!-- Здесь аватврка юзера-->
-                                        </div>
-                                        <div class="friend-name"><span>
-                                                <!--Здесь имя или логин пользователя -->Александра Комарницкая</span>
-                                        </div>
-
-                                    </div>
-                                    <div class="friend">
-                                        <div class="circle-avatar"><img src=""><!-- Здесь аватврка юзера-->
-                                        </div>
-                                        <div class="friend-name"><span>
-                                                <!--Здесь имя или логин пользователя -->Александра Комарницкая</span>
-                                        </div>
-
-                                    </div>
-                                    <div class="friend">
-                                        <div class="circle-avatar"><img src=""><!-- Здесь аватврка юзера-->
-                                        </div>
-                                        <div class="friend-name"><span>
-                                                <!--Здесь имя или логин пользователя -->Александра Комарницкая</span>
-                                        </div>
-
-                                    </div>
-                                    <div class="friend">
-                                        <div class="circle-avatar"><img src=""><!-- Здесь аватврка юзера-->
-                                        </div>
-                                        <div class="friend-name"><span>
-                                                <!--Здесь имя или логин пользователя -->Александра Комарницкая</span>
-                                        </div>
-
-                                    </div>
-                                    <div class="friend">
-                                        <div class="circle-avatar"><img src=""><!-- Здесь аватврка юзера-->
-                                        </div>
-                                        <div class="friend-name"><span>
-                                                <!--Здесь имя или логин пользователя -->Александра Комарницкая</span>
-                                        </div>
-
-                                    </div>
-                                    <div class="friend">
-                                        <div class="circle-avatar"><img src=""><!-- Здесь аватврка юзера-->
-                                        </div>
-                                        <div class="friend-name"><span>
-                                                <!--Здесь имя или логин пользователя -->Александра Комарницкая</span>
-                                        </div>
-
-                                    </div>
-
+                                <div class="block-friends">
+                                    <div>1</div>
+                                    <div>2</div>
+                                    <div>3</div>
+                                    <div>4</div>
+                                    <div>5</div>
+                                    <div>6</div>
+                                    <div>7</div>
+                                    <div>8</div>
+                                    <div>9</div>
                                 </div>
+
                             </section>
 
                         </article>

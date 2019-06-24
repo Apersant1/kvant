@@ -317,55 +317,16 @@ body main .opportunuties {
   margin: 0 0 2rem 0;
 }
 
-.friends {
-  width: 100%;
-  height: auto;
+.block-friends {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 100%;
 }
 
-.friends .friend {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 50%;
-  height: 50%;
-  text-align: center;
+.block-friends div {
+  height: 50px;
+  width: 50px;
   background-color: #fff;
-  color: #000;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-radius: 8px;
-  -webkit-box-shadow: 1px 0 50px 5px #000;
-          box-shadow: 1px 0 50px 5px #000;
-  margin: 2vw;
-}
-
-.friends .friend .circle-avatar {
-  background-color: #cfcfcf;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-}
-
-.friends .friend .friend-name {
-  margin-top: 5%;
-}
-
-.friends .friend .friend-name span {
-  font-family: 'Rubik Mono One', sans-serif;
-  font-size: 14px;
 }
 /*# sourceMappingURL=profile.css.map */
