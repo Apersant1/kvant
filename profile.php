@@ -79,49 +79,139 @@ require "/DataBase/db.php";
 
 
             <div class="wrapper">
-                <header>
-                    <h1>Tab switch</h1>
-                </header>
-                <nav>
+                <h1 class="title">Вкладки</h1>
+
+                <nav id="tab-list">
                     <ul>
-                        <li class="gnav1">Tab1</li>
-                        <li class="gnav2">Tab2</li>
-                        <li class="gnav3">Tab3</li>
-                        <li class="gnav4">Tab4</li>
+                        <li>Друзья</li>
+                        <li>Достижения</li>
+                        <li>Проекты</li>
+                        <li>Текущий проект</li>
                     </ul>
                 </nav>
                 <div class="contents" id="contents">
                     <div class="container">
-                        <article id="page1" class="show top">
+
+
+
+                        <!-- Здесь блок с друзьями -->
+                        <article class="show top">
+
+
                             <section>
-                                <h1>Tab1 Title</h1>
-                                <p>This is tab one.</p>
+                                <h1>Ваши друзья</h1>
+
+                                <div class="friends">
+                                    <div class="friend">
+                                        <div class="circle-avatar"><img src=""><!-- Здесь аватврка юзера-->
+                                        </div>
+                                        <div class="friend-name"><span>
+                                                <!--Здесь имя или логин пользователя -->Александра Комарницкая</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="friend">
+                                        <div class="circle-avatar"><img src=""><!-- Здесь аватврка юзера-->
+                                        </div>
+                                        <div class="friend-name"><span>
+                                                <!--Здесь имя или логин пользователя -->Александра Комарницкая</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="friend">
+                                        <div class="circle-avatar"><img src=""><!-- Здесь аватврка юзера-->
+                                        </div>
+                                        <div class="friend-name"><span>
+                                                <!--Здесь имя или логин пользователя -->Александра Комарницкая</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="friend">
+                                        <div class="circle-avatar"><img src=""><!-- Здесь аватврка юзера-->
+                                        </div>
+                                        <div class="friend-name"><span>
+                                                <!--Здесь имя или логин пользователя -->Александра Комарницкая</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="friend">
+                                        <div class="circle-avatar"><img src=""><!-- Здесь аватврка юзера-->
+                                        </div>
+                                        <div class="friend-name"><span>
+                                                <!--Здесь имя или логин пользователя -->Александра Комарницкая</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="friend">
+                                        <div class="circle-avatar"><img src=""><!-- Здесь аватврка юзера-->
+                                        </div>
+                                        <div class="friend-name"><span>
+                                                <!--Здесь имя или логин пользователя -->Александра Комарницкая</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="friend">
+                                        <div class="circle-avatar"><img src=""><!-- Здесь аватврка юзера-->
+                                        </div>
+                                        <div class="friend-name"><span>
+                                                <!--Здесь имя или логин пользователя -->Александра Комарницкая</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="friend">
+                                        <div class="circle-avatar"><img src=""><!-- Здесь аватврка юзера-->
+                                        </div>
+                                        <div class="friend-name"><span>
+                                                <!--Здесь имя или логин пользователя -->Александра Комарницкая</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="friend">
+                                        <div class="circle-avatar"><img src=""><!-- Здесь аватврка юзера-->
+                                        </div>
+                                        <div class="friend-name"><span>
+                                                <!--Здесь имя или логин пользователя -->Александра Комарницкая</span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </section>
+
+                        </article>
+                        <!-- Здесь блок с друзьями -->
+
+
+                        <!-- Здесь блок с достижениями -->
+                        <article>
+                            <section>
+                                <h1>Ваши достижения</h1>
+
                             </section>
                         </article>
-                        <article id="page2">
+
+
+                        <!-- Здесь блок с достижениями -->
+
+                        <!-- Здесь блок с пуллом проектов -->
+                        <article>
                             <section>
-                                <h1>Tab2 Title</h1>
-                                <p>This is tab two.</p>
+                                <h1>Доступные проекты</h1>
+
                             </section>
                         </article>
-                        <article id="page3">
+
+                        <!-- Здесь блок с пуллом проектов -->
+
+                        <!-- Здесь блок с текущим проектом юзера -->
+                        <article>
                             <section>
-                                <h1>Tab3 Title</h1>
-                                <p>This is tab three.</p>
+                                <h1>Ваш текущий проект</h1>
+
                             </section>
                         </article>
-                        <article id="page4">
-                            <section>
-                                <h1>Tab4 Title</h1>
-                                <p>This is tab four.</p>
-                            </section>
-                        </article>
-                        <article id="page5">
-                            <section>
-                                <h1>Tab5 Title</h1>
-                                <p>This is tab five</p>
-                            </section>
-                        </article>
+                        <!-- Здесь блок с текущим проектом юзера -->
+
                     </div>
                 </div>
             </div>
@@ -134,12 +224,11 @@ require "/DataBase/db.php";
 
     </main>
 
-    <script src="/JS/tabs.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+
+    <script type="text/javascript" src="./js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="./js/tabs.js"></script>
+
+
 
 
 

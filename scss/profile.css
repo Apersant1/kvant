@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -173,18 +174,23 @@ body main .man-info .info span nav {
 body main .opportunuties {
   width: 60%;
   margin-left: 5%;
-  height: 100%;
+  height: auto;
   padding: 1.5rem;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   font-family: 'Cairo', sans-serif;
   background: radial-gradient(50% 16%, circle, #c36fd4 32%, #332bab 88%);
 }
 
 .wrapper {
-  width: 100%;
+  overflow: hidden;
   height: 100%;
-  margin: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border-radius: 8px;
   background: #f0f0f0;
   position: relative;
@@ -192,58 +198,43 @@ body main .opportunuties {
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-.wrapper header h1 {
-  background: #f0f0f0;
-  color: #555;
-  padding: 1rem;
+.wrapper .title {
+  background: #ececec;
+  color: #b18f8f;
+  padding: .5em;
   border-radius: 8px 8px 0 0;
   -webkit-box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.3);
           box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.3);
   position: relative;
-  z-index: 8;
+  font-size: 30px;
 }
 
 .wrapper nav {
-  width: 100%;
+  width: 15%;
+  height: 100%;
+  margin-top: -8px;
   background: linear-gradient(135deg, #fcc274 0%, #eb48a1 100%);
-}
-
-@media (min-width: 769px) {
-  .wrapper nav {
-    float: left;
-    width: 96px;
-    height: calc(100% - 3rem);
-    border-radius: 0 0 0 8px;
-  }
 }
 
 .wrapper nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-@media (min-width: 769px) {
-  .wrapper nav ul {
-    display: block;
-  }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style: none;
 }
 
 .wrapper nav li {
-  line-height: 3;
-  padding: 0 1rem;
-  border-right: 1px solid #f0f0f0;
+  padding: 0.5em;
   cursor: pointer;
   color: #fff;
+  font-size: 1.3em;
+  text-align: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-@media (min-width: 769px) {
-  .wrapper nav li {
-    border-bottom: 1px solid #f0f0f0;
-    border-right: none;
-  }
 }
 
 .wrapper nav li.hover {
@@ -262,22 +253,13 @@ body main .opportunuties {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: absolute;
-  height: calc(100% - 6rem);
-  width: 100%;
-  top: 6rem;
-  left: 0;
+  height: 100%;
+  width: 85%;
+  top: 4rem;
+  margin-left: 10.3em;
   border-radius: 0 0 8px 0;
   overflow: hidden;
   background: linear-gradient(135deg, #1c1a30 0%, #38335d 100%);
-}
-
-@media (min-width: 769px) {
-  .wrapper #contents {
-    height: calc(100% - 3rem);
-    width: calc(100% - 6rem);
-    top: 3rem;
-    left: 96px;
-  }
 }
 
 .wrapper article {
@@ -332,5 +314,57 @@ body main .opportunuties {
 .wrapper article section h1 {
   font-size: 1.5rem;
   margin: 0 0 2rem 0;
+}
+
+.friends {
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 50% 50%;
+      grid-template-rows: 50% 50%;
+  -ms-grid-columns: 30% 30%;
+      grid-template-columns: 30% 30%;
+}
+
+.friends .friend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+  height: 30%;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 8px;
+  -webkit-box-shadow: 1px 0 50px 5px #000;
+          box-shadow: 1px 0 50px 5px #000;
+  margin: 2vw;
+}
+
+.friends .friend .circle-avatar {
+  background-color: #cfcfcf;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.friends .friend .friend-name {
+  margin-top: 5%;
+}
+
+.friends .friend .friend-name span {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 14px;
 }
 /*# sourceMappingURL=profile.css.map */
