@@ -76,7 +76,14 @@ require "/DataBase/db.php";
 
 
         <article class="opportunuties">
-           
+            <div id="tabs">
+                <div class="tab whiteborder">Tab 1</div>
+                <div class="tab">Tab 2</div>
+                <div class="tab">Tab 3</div>
+                <div class="tabContent">Текст 1</div>
+                <div class="tabContent">Текст 2</div>
+                <div class="tabContent">Текст 3</div>
+            </div>
 
 
 
