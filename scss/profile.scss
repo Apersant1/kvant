@@ -289,7 +289,6 @@
      display: grid;
      grid-template-columns: 1fr 1fr;
      grid-template-rows: 1fr 1fr;
-     grid-gap: 2vw;
      width: 100%;
      height: 100%;
      .block-friend {
@@ -297,6 +296,7 @@
          flex-direction: column;
          height: 300px;
          width: 300px;
+         margin: 50px;
          background-color: #fff;
          border-radius: 8px;
          justify-content: center;

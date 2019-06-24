@@ -326,7 +326,6 @@ body main .opportunuties {
       grid-template-columns: 1fr 1fr;
   -ms-grid-rows: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
-  grid-gap: 2vw;
   width: 100%;
   height: 100%;
 }
@@ -341,6 +340,7 @@ body main .opportunuties {
           flex-direction: column;
   height: 300px;
   width: 300px;
+  margin: 50px;
   background-color: #fff;
   border-radius: 8px;
   -webkit-box-pack: center;
