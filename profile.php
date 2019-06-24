@@ -76,36 +76,7 @@ require "/DataBase/db.php";
 
 
         <article class="opportunuties">
-            <div class="tabs-container">
-                <ul class="tabs">
-                    <li class="active">
-                        <a href="">Part 1</a>
-                    </li>
-                    <li>
-                        <a href="">Part 2</a>
-                    </li>
-                    <li>
-                        <a href="">Part 3</a>
-                    </li>
-                </ul>
-                <div class="tabs-content">
-                    <div class="tabs-panel active" data-index="0">
-                        <!-- content here -->
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra erat at dui dictum, ac semper ante blandit. Suspendisse eleifend felis augue, et egestas odio tempor sed. Quisque sed justo eget arcu viverra sodales. Suspendisse a venenatis
-        augue, imperdiet elementum lorem. Donec neque dui, fringilla vitae ultricies vel, scelerisque non ante. Aliquam erat volutpat. Donec erat velit, finibus at lobortis nec, venenatis ac ipsum. Proin blandit urna turpis, quis euismod dui elementum
-        quis. Vestibulum hendrerit eget est ornare sollicitudin. Cras sit amet mi ut dui venenatis maximus. Donec blandit libero risus, non cursus mauris dignissim a. Donec vitae risus condimentum, rhoncus nibh in, scelerisque massa. Vivamus semper laoreet
-        neque at molestie. Integer nulla nisl, accumsan convallis bibendum ac, suscipit ac leo. Nunc at odio interdum, interdum arcu eu, ullamcorper felis.</p>
-                        
-                    </div>
-                    <div class="tabs-panel" data-index="1">
-                        <!-- content here -->
-                    </div>
-                    <div class="tabs-panel" data-index="2">
-                        <!-- content here -->
-                    </div>
-                </div>
-            </div>
-
+           
 
 
 
