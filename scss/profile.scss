@@ -291,10 +291,14 @@
      width: 100%;
      height: 100%;
      background-color: #fff;
-     justify-content: center;
-     div {
-         height: 30px;
-         width: 39px;
-         background-color: #000;
+     .block-friend {
+         display: flex;
+         width: 30%;
+         height: 30%;
+         .circle-avatar {
+             width: 150px;
+             height: 150px;
+             border-radius: 50%;
+         }
      }
  }

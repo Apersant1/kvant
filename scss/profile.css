@@ -328,14 +328,19 @@ body main .opportunuties {
   width: 100%;
   height: 100%;
   background-color: #fff;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
-.block-friends div {
-  height: 30px;
-  width: 39px;
-  background-color: #000;
+.block-friends .block-friend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  height: 30%;
+}
+
+.block-friends .block-friend .circle-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=profile.css.map */
