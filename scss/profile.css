@@ -107,6 +107,8 @@ body main .man-info #avatar {
   border-radius: 20px;
   width: 285px;
   height: 285px;
+  -webkit-box-shadow: 0px 1px 10px 1px #000;
+          box-shadow: 0px 1px 10px 1px #000;
 }
 
 body main .man-info .score {
@@ -192,6 +194,8 @@ body main .opportunuties {
   border-radius: 8px;
   background: #f0f0f0;
   position: relative;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .wrapper .title {
@@ -199,6 +203,8 @@ body main .opportunuties {
   color: #b18f8f;
   padding: .5em;
   border-radius: 8px 8px 0 0;
+  -webkit-box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.3);
   position: relative;
   font-size: 30px;
 }
@@ -342,6 +348,8 @@ body main .opportunuties {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 8px;
+  -webkit-box-shadow: 1px 0 50px 5px #000;
+          box-shadow: 1px 0 50px 5px #000;
   margin: 2vw;
 }
 
