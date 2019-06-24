@@ -104,7 +104,7 @@ require "/DataBase/db.php";
                                 <div class="block-friends">
                                    <div class="block-friend">
                                        <div class="circle-avatar"></div>
-                                       <span></span>
+                                       <span>Александра Комарницкая</span>
                                    </div>
                                     
                                 

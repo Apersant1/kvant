@@ -292,9 +292,12 @@
      height: 100%;
      .block-friend {
          display: flex;
+         flex-direction: column;
          height: 300px;
          width: 300px;
          background-color: #fff;
+         border-radius: 8px;
+         justify-content: center;
          .circle-avatar {
              width: 150px;
              height: 150px;
