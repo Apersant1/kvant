@@ -76,7 +76,30 @@ require "/DataBase/db.php";
 
 
         <article class="opportunuties">
-            
+            <div class="tabs-container">
+                <ul class="tabs">
+                    <li class="active">
+                        <a href="">Part 1</a>
+                    </li>
+                    <li>
+                        <a href="">Part 2</a>
+                    </li>
+                    <li>
+                        <a href="">Part 3</a>
+                    </li>
+                </ul>
+                <div class="tabs-content">
+                    <div class="tabs-panel active" data-index="0">
+                        <!-- content here -->
+                    </div>
+                    <div class="tabs-panel" data-index="1">
+                        <!-- content here -->
+                    </div>
+                    <div class="tabs-panel" data-index="2">
+                        <!-- content here -->
+                    </div>
+                </div>
+            </div>
 
 
 
