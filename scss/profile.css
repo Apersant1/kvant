@@ -335,7 +335,7 @@ body main .opportunuties {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 30%;
+  width: 50%;
   height: 30%;
   text-align: center;
   background-color: #fff;
