@@ -327,7 +327,6 @@ body main .opportunuties {
   grid-gap: 2vw;
   width: 100%;
   height: 100%;
-  background-color: #fff;
 }
 
 .block-friends .block-friend {
@@ -342,5 +341,6 @@ body main .opportunuties {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  background-color: #fff;
 }
 /*# sourceMappingURL=profile.css.map */
