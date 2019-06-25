@@ -321,8 +321,6 @@ body main .opportunuties {
 
 .block-friends {
   scrollbar-width: none;
-  -webkit-scrollbar-width: none;
-  -moz-scrollbar-width: none;
   overflow: auto;
   display: -ms-grid;
   display: grid;
@@ -330,9 +328,9 @@ body main .opportunuties {
       grid-template-columns: 1fr 1fr;
   -ms-grid-rows: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
-  width: 80%;
+  width: 100%;
   grid-gap: 1vw;
-  height: 100%;
+  height: 80%;
 }
 
 .block-friends .block-friend {
