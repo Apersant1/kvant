@@ -329,9 +329,7 @@ body main .opportunuties {
   -ms-grid-rows: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
   width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  grid-gap: 1vw;
   height: 100%;
 }
 
