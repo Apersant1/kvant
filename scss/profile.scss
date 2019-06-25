@@ -288,10 +288,7 @@
  .block-friends {
      scrollbar-width: none;
       ::-webkit-scrollbar {
-         width: 0px;
-         /* Remove scrollbar space */
-         background: transparent;
-         /* Optional: just make scrollbar invisible */
+         width: none;
      }
      overflow-y: scroll;
      display: grid;
