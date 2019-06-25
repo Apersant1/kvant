@@ -1,5 +1,5 @@
 <?php
-session_start();  
+
 
 require "rb.php";
 
@@ -7,6 +7,9 @@ require "rb.php";
 R::setup( 'mysql:host=192.168.1.13;dbname=KvantLand',
             'root','');
 
+session_start();
+
+?>  
 
 
         
