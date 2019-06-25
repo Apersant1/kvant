@@ -288,9 +288,12 @@
  .block-friends {
      scrollbar-width: none;
       ::-webkit-scrollbar {
-         display: none;
+         width: 0px;
+         /* Remove scrollbar space */
+         background: transparent;
+         /* Optional: just make scrollbar invisible */
      }
-     overflow: auto;
+     overflow: scroll;
      display: grid;
      grid-template-columns: 1fr 1fr;
      grid-template-rows: 1fr 1fr;

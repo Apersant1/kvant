@@ -321,7 +321,7 @@ body main .opportunuties {
 
 .block-friends {
   scrollbar-width: none;
-  overflow: auto;
+  overflow: scroll;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -334,7 +334,10 @@ body main .opportunuties {
 }
 
 .block-friends ::-webkit-scrollbar {
-  display: none;
+  width: 0px;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */
 }
 
 .block-friends .block-friend {
