@@ -320,7 +320,6 @@ body main .opportunuties {
 }
 
 .block-friends {
-  scrollbar-width: none;
   overflow: auto;
   display: -ms-grid;
   display: grid;
