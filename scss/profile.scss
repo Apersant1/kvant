@@ -347,7 +347,11 @@
              background-color: #cfcfcf;
          }
          .archivment-info {
+             position: absolute;
              color: #000;
+             .archivment-title {
+                 font-family: 'Rubik Mono One', sans-serif;
+             }
          }
      }
  }

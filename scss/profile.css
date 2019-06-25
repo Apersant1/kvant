@@ -408,6 +408,11 @@ body main .opportunuties {
 }
 
 .block-archivment .archivment .archivment-info {
+  position: absolute;
   color: #000;
+}
+
+.block-archivment .archivment .archivment-info .archivment-title {
+  font-family: 'Rubik Mono One', sans-serif;
 }
 /*# sourceMappingURL=profile.css.map */
