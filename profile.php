@@ -103,36 +103,44 @@ require "/DataBase/db.php";
 
                                 <div class="block-friends">
                                     <div class="block-friend">
-                                        <div class="circle-avatar"><img src="" alt="">
+                                        <div class="circle-avatar"><img src="/images/avatars/3790554_bangtan_boys.jpg" alt="">
                                             <!--Здесь аватарка друга  -->
                                         </div>
                                         <span>Александра Комарницкая</span>
                                     </div>
                                     <div class="block-friend">
-                                        <div class="circle-avatar"><img src="" alt="">
+                                        <div class="circle-avatar"><img src="/images/avatars/PHSnx_nzduo.jpg" alt="">
                                             <!--Здесь аватарка друга  -->
                                         </div>
-                                        <span>Александра Комарницкая</span>
+                                        <span>Илья Афтайкин</span>
                                     </div>
                                     <div class="block-friend">
-                                        <div class="circle-avatar"><img src="" alt="">
+                                        <div class="circle-avatar"><img src="/images/avatars/5zU-J0WHAqU.jpg" alt="">
                                             <!--Здесь аватарка друга  -->
                                         </div>
-                                        <span>Александра Комарницкая</span>
+                                        <span>Раевский</span>
                                     </div>
                                     <div class="block-friend">
-                                        <div class="circle-avatar"><img src="" alt="">
+                                        <div class="circle-avatar"><img src="/images/avatars/Byt-WnVVDh8.jpg" alt="">
                                             <!--Здесь аватарка друга  -->
                                         </div>
-                                        <span>Александра Комарницкая</span>
+                                        <span>Вова Середин</span>
                                     </div>
                                     <div class="block-friend">
-                                        <div class="circle-avatar"><img src="" alt="">
+                                        <div class="circle-avatar"><img src="/images/avatars/kc7F1wi2wK8.jpg" alt="">
                                             <!--Здесь аватарка друга  -->
                                         </div>
-                                        <span>Александра Комарницкая</span>
+                                        <span>Евгения Клименова</span>
                                     </div>
-
+                                    <div class="block-friend">
+                                        <div class="circle-avatar"><img src="/images/avatars/xhDD3quNHLA.jpg" alt="">
+                                            <!--Здесь аватарка друга  -->
+                                        </div>
+                                        <span>Надежда Теньгаева</span>
+                                    </div>
+                                    
+                                    
+                                    
 
 
                                 </div>
