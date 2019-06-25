@@ -176,7 +176,6 @@ body main .opportunuties {
   margin-left: 5%;
   height: auto;
   padding: 1.5rem;
-  font-family: 'Cairo', sans-serif;
   background: radial-gradient(50% 16%, circle, #c36fd4 32%, #332bab 88%);
 }
 
@@ -184,6 +183,7 @@ body main .opportunuties {
   overflow: hidden;
   height: 100%;
   width: 100%;
+  -wekit-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -211,7 +211,7 @@ body main .opportunuties {
 
 .wrapper #tab-list {
   width: 15%;
-  height: 100%;
+  height: 600px;
   margin-top: -8px;
   background: linear-gradient(135deg, #ff8201 0%, #fe0b7f 100%);
 }
