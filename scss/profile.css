@@ -391,7 +391,6 @@ body main .opportunuties {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
   height: 40%;
   width: 100%;
   border-radius: 7px;
@@ -399,7 +398,6 @@ body main .opportunuties {
 }
 
 .block-archivment .archivment .archivment-image {
-  position: absolute;
   height: 50px;
   border-radius: 50%;
   width: 50px;
@@ -408,7 +406,6 @@ body main .opportunuties {
 }
 
 .block-archivment .archivment .archivment-info {
-  position: absolute;
   color: #000;
 }
 

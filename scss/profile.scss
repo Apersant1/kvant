@@ -333,13 +333,11 @@
      .archivment {
          display: flex;
          align-items: center;
-         position: relative;
          height: 40%;
          width: 100%;
          border-radius: 7px;
          background-color: #fff;
          .archivment-image {
-             position: absolute;
              height: 50px;
              border-radius: 50%;
              width: 50px;
@@ -347,7 +345,6 @@
              background-color: #cfcfcf;
          }
          .archivment-info {
-             position: absolute;
              color: #000;
              .archivment-title {
                  font-family: 'Rubik Mono One', sans-serif;
