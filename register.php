@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 require "DataBase//db.php";
 
@@ -64,7 +64,7 @@ if ( isset($data['do_signup'])  )
         $user->password = md5($data['password']);
         R::store($user);
         
-        header('Location: /login.php');
+        header('Location: /index.php');
 
     }else{
         echo '<div id="errors">'.array_shift($error).'</div>';

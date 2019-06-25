@@ -1,4 +1,4 @@
-<?php  
+﻿<?php  
 
 require "/DataBase/db.php";
 
@@ -41,7 +41,7 @@ require "/DataBase/db.php";
 
 
                 <?php else : ?>
-                header('Location: /login.php')
+                header('Location: /index.php')
                 <?php endif; ?>
             </h5><span>|</span>
             <a href="/logout.php">Выйти</a>

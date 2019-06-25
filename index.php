@@ -93,7 +93,7 @@ require "/DataBase/db.php";
         <div class="content">
             <h3>Вход</h3>
             <div class="form">
-                <form action="/login.php" method="POST">
+                <form action="/index.php" method="POST">
 
 
                     <input name="login"  type="text" placeholder="Логин">
