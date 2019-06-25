@@ -62,11 +62,13 @@ if ( isset($data['do_signup'])  )
         $user->login = $data['login'];
         $user->email = $data['email'];
         $user->password = md5($data['password']);
+        
         R::store($user);
         
         header('Location: /index.php');
 
     }else{
+        
         echo '<div id="errors">'.array_shift($error).'</div>';
     }
 
@@ -113,15 +115,15 @@ if ( isset($data['do_signup'])  )
                     <input name="login" type="text"      placeholder="Логин">
                     <input name="email" type="email"  placeholder="text@test.com">
                     <input name="password" type="password"  placeholder="Пароль">
-
+<!-- 
                     <div class="kvant">
                         <label for="">Квант:</label>
                         <div class="dropdown">
 
                             <div id="dropbtn" class="dropbtn">
-                                <p id="kvant">Выберите квант</p>
+                                <p name="kvant" id="kvant">Выберите квант</p>
                                 <div id="triangle" class="triangle"></div>
-                                <div id="dropdown-content" class="dropdown-content">
+                                <div   id="dropdown-content" class="dropdown-content">
 
                                     <a id="it" href="#">IT</a>
                                     <a id="aero" href="#">Аэро</a>
@@ -138,7 +140,7 @@ if ( isset($data['do_signup'])  )
 
 
 
-                    </div>
+                    </div> -->
                     <button class="submit" name="do_signup" type="submit">Зарегистрироваться</button>
 
                 </form>
