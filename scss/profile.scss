@@ -331,8 +331,18 @@
      grid-gap: 1vw;
      height: 100%; //80%
      .archivment {
+         display: flex;
+         align-items: center;
+         position: relative;
          height: 40%;
          width: 100%;
+         border-radius: 7px;
          background-color: #fff;
+         .archivment-image {
+             position: absolute;
+             height: 50px;
+             width: 50px;
+             background-color: #cfcfcf;
+         }
      }
  }

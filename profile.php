@@ -159,7 +159,9 @@ require "/DataBase/db.php";
                                 <h1>Ваши достижения</h1>
 
                                 <div class="block-archivment">
-                                    <div class="archivment"></div>
+                                    <div class="archivment">
+                                        <div class="archivment-image"><img src="#" alt="#"></div>
+                                    </div>
                                 </div>
 
                             </section>
