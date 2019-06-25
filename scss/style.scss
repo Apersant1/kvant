@@ -126,7 +126,7 @@
                                 margin-top: 20px;
                                 width: auto;
                                 height: 45px;
-                                transition: all 5s;
+                                transition: all .5s;
                                 font-size: 18px;
                                 padding: 5px;
                                 border: none;
@@ -139,6 +139,10 @@
                                 background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
                                 -ms-border-radius: 20px;
                                 -o-border-radius: 20px;
+                                -webkit-transition: all .5s;
+                                -moz-transition: all .5s;
+                                -ms-transition: all .5s;
+                                -o-transition: all .5s;
                             }
                             .submit:hover {
                                 animation: linear loop 5s infinite;
