@@ -287,9 +287,6 @@
  // In tabs friends
  .block-friends {
      scrollbar-width: none;
-      ::-webkit-scrollbar {
-         width: none;
-     }
      overflow-y: scroll;
      display: grid;
      grid-template-columns: 1fr 1fr;
@@ -321,6 +318,10 @@
              letter-spacing: 2px;
          }
      }
+ }
+ 
+ .block-friends::-webkit-scrollbar {
+     width: 0;
  }
  
  //  In tabs archivment

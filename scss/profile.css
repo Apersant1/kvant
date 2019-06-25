@@ -333,10 +333,6 @@ body main .opportunuties {
   height: 80%;
 }
 
-.block-friends ::-webkit-scrollbar {
-  width: none;
-}
-
 .block-friends .block-friend {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -372,6 +368,10 @@ body main .opportunuties {
   color: #000;
   font-size: 16px;
   letter-spacing: 2px;
+}
+
+.block-friends::-webkit-scrollbar {
+  width: 0;
 }
 
 .block-archivment {
