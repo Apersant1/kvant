@@ -304,7 +304,8 @@
          justify-content: center;
          align-items: center;
          text-align: center;
-         box-shadow: 3px 0 18px 3px #000;
+         box-shadow: 3px 0 10px 3px #000;
+         -webkit-box-shadow: 3px 0 10px 3px #000;
          .circle-avatar img {
              width: 150px;
              height: 150px;
@@ -320,6 +321,7 @@
      }
  }
  
+ //Убрать линию скролла в Chome
  .block-friends::-webkit-scrollbar {
      width: 0;
  }
