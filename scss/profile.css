@@ -330,7 +330,7 @@ body main .opportunuties {
       grid-template-rows: 1fr 1fr;
   width: 100%;
   grid-gap: 1vw;
-  height: 150%;
+  height: 200%;
 }
 
 .block-friends .block-friend {
