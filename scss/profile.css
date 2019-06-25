@@ -381,12 +381,12 @@ body main .opportunuties {
       grid-template-rows: 1fr 1fr 1fr;
   width: 100%;
   grid-gap: 1vw;
-  height: 80%;
+  height: 100%;
 }
 
 .block-archivment .archivment {
-  height: 10%;
-  width: 30%;
+  height: 30%;
+  width: 50%;
   background-color: #fff;
 }
 /*# sourceMappingURL=profile.css.map */
