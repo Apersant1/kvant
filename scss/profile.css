@@ -209,14 +209,14 @@ body main .opportunuties {
   font-size: 30px;
 }
 
-.wrapper nav {
+.wrapper #tab-list {
   width: 15%;
   height: 100%;
   margin-top: -8px;
   background: linear-gradient(135deg, #ff8201 0%, #fe0b7f 100%);
 }
 
-.wrapper nav ul {
+.wrapper #tab-list ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -227,7 +227,7 @@ body main .opportunuties {
   list-style: none;
 }
 
-.wrapper nav li {
+.wrapper #tab-list li {
   padding: 0.5em;
   cursor: pointer;
   color: #fff;
@@ -237,15 +237,15 @@ body main .opportunuties {
           box-sizing: border-box;
 }
 
-.wrapper nav li.hover {
+.wrapper #tab-list li.hover {
   background: rgba(255, 255, 255, 0.2);
 }
 
-.wrapper nav li.pressed {
+.wrapper #tab-list li.pressed {
   background: rgba(255, 255, 255, 0.7);
 }
 
-.wrapper nav li.currentPage {
+.wrapper #tab-list li.currentPage {
   background: rgba(255, 255, 255, 0.5);
 }
 
@@ -405,5 +405,9 @@ body main .opportunuties {
   width: 50px;
   margin-left: 5%;
   background-color: #cfcfcf;
+}
+
+.block-archivment .archivment .archivment-title {
+  color: #000;
 }
 /*# sourceMappingURL=profile.css.map */
