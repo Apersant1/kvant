@@ -286,8 +286,8 @@
  
  // In tabs friends
  .block-friends {
-     //  scrollbar-width: none;
-     //  overflow: auto;
+     scrollbar-width: none;
+     overflow: auto;
      display: grid;
      grid-template-columns: 1fr 1fr;
      grid-template-rows: 1fr 1fr;
