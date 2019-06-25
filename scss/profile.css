@@ -407,6 +407,8 @@ body main .opportunuties {
 
 .block-archivment .archivment .archivment-info {
   color: #000;
+  margin-left: 5%;
+  text-align: center;
 }
 
 .block-archivment .archivment .archivment-info .archivment-title {
