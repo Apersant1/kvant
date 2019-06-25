@@ -95,8 +95,8 @@ header .content .form .submit {
     margin-top: 20px;
     width: auto;
     height: 45px;
-    -webkit-transition: all 5s;
-    transition: all 5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
     font-size: 20px;
     font-size: 22px;
     border: none;
@@ -111,6 +111,9 @@ header .content .form .submit {
     background: linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 .links {
