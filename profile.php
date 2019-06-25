@@ -138,6 +138,18 @@ require "/DataBase/db.php";
                                         </div>
                                         <span>Надежда Теньгаева</span>
                                     </div>
+                                    <div class="block-friend">
+                                        <div class="circle-avatar"><img src="/images/avatars/" alt="">
+                                            <!--Здесь аватарка друга  -->
+                                        </div>
+                                        <span></span>
+                                    </div>
+                                    <div class="block-friend">
+                                        <div class="circle-avatar"><img src="/images/avatars/" alt="">
+                                            <!--Здесь аватарка друга  -->
+                                        </div>
+                                        <span></span>
+                                    </div>
                                     
                                     
                                     
