@@ -90,13 +90,13 @@ header .content .form form input {
     border-bottom: 2px solid gray;
 }
 
-header .content .form {
+header .content .form .submit {
     font-family: 'BankGothicRUSS';
     margin-top: 20px;
     width: auto;
     height: 45px;
     -webkit-transition: all .5s;
-    transition: all .5s;
+    transition: all 5s;
     font-size: 20px;
     font-size: 22px;
     border: none;
@@ -114,24 +114,6 @@ header .content .form {
     -moz-transition: all .5s;
     -ms-transition: all .5s;
     -o-transition: all .5s;
-}
-
-.submit {
-    font-family: 'BankGothicRUSS';
-    margin-top: 20px;
-    width: auto;
-    height: 45px;
-    font-size: 20px;
-    border: none;
-    border-radius: 20px;
-    outline: none;
-    -webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.2);
-    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.2);
-    -webkit-border-radius: 20px;
-    color: #fff;
-    -moz-border-radius: 20px;
-    background: -webkit-gradient(linear, left top, right top, from(#833ab4), color-stop(50%, #fd1d1d), to(#fcb045));
-    background: linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
 }
 
 .links {
