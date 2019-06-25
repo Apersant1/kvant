@@ -137,7 +137,7 @@ require "/DataBase/db.php";
                                         <div class="circle-avatar"><img src="/images/avatars/xhDD3quNHLA.jpg" alt="">
                                             <!--Здесь аватарка друга  -->
                                         </div>
-                                        <span>Надежда Теньгаева</span>
+                                        <span>Надежда Тиньгаева</span>
                                     </div>
 
 
