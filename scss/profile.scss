@@ -287,8 +287,8 @@
  // In tabs friends
  .block-friends {
      scrollbar-width: none;
-      ::-webkit-scrollbar-width {
-         scrollbar-width: none;
+      ::-webkit-scrollbar {
+         display: none;
      }
      overflow: auto;
      display: grid;

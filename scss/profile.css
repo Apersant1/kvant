@@ -333,8 +333,8 @@ body main .opportunuties {
   height: 80%;
 }
 
-.block-friends ::-webkit-scrollbar-width {
-  scrollbar-width: none;
+.block-friends ::-webkit-scrollbar {
+  display: none;
 }
 
 .block-friends .block-friend {
