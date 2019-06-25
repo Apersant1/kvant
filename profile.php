@@ -158,6 +158,10 @@ require "/DataBase/db.php";
                             <section>
                                 <h1>Ваши достижения</h1>
 
+                                <div class="block-archivment">
+                                    <div class="archivment"></div>
+                                </div>
+
                             </section>
                         </article>
 
