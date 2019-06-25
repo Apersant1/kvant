@@ -363,9 +363,10 @@ body main .opportunuties {
 }
 
 .block-friends .block-friend span {
-  margin-top: 3%;
+  margin-top: 5%;
   font-family: 'Rubik Mono One', sans-serif;
   color: #000;
-  font-size: 14px;
+  font-size: 16px;
+  letter-spacing: 2px;
 }
 /*# sourceMappingURL=profile.css.map */
