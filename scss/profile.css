@@ -353,7 +353,7 @@ body main .opportunuties {
           align-items: center;
   text-align: center;
   box-shadow: 3px 0 10px 3px #000;
-  -webkit-box-shadow: 3px 3px 10px 3px #000;
+  -webkit-box-shadow: 3px 3px 18px 3px #000;
 }
 
 .block-friends .block-friend .circle-avatar img {
