@@ -139,7 +139,7 @@ require "/DataBase/db.php";
                                         </div>
                                         <span>Надежда Теньгаева</span>
                                     </div>
-                                    
+
 
 
 
@@ -161,6 +161,8 @@ require "/DataBase/db.php";
                                 <div class="block-archivment">
                                     <div class="archivment">
                                         <div class="archivment-image"><img src="" alt=""></div>
+                                        <span class="archivment-title">godmode</span>
+                                        <nav class="archivment-deskription">Выйграть турнир 1 раз</nav>
                                     </div>
                                 </div>
 
