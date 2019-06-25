@@ -161,8 +161,10 @@ require "/DataBase/db.php";
                                 <div class="block-archivment">
                                     <div class="archivment">
                                         <div class="archivment-image"><img src="" alt=""></div>
-                                        <span class="archivment-title">godmode</span>
-                                        <nav class="archivment-deskription">Выйграть турнир 1 раз</nav>
+                                        <div class="archivment-info">
+                                            <span class="archivment-title">godmode</span>
+                                            <nav class="archivment-deskription">Выйграть турнир 1 раз</nav>
+                                        </div>
                                     </div>
                                 </div>
 
