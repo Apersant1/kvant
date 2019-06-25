@@ -160,7 +160,7 @@ require "/DataBase/db.php";
 
                                 <div class="block-archivment">
                                     <div class="archivment">
-                                        <div class="archivment-image"><img src="#" alt="#"></div>
+                                        <div class="archivment-image"><img src="" alt=""></div>
                                     </div>
                                 </div>
 
