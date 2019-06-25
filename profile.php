@@ -103,7 +103,8 @@ require "/DataBase/db.php";
 
                                 <div class="block-friends">
                                     <div class="block-friend">
-                                        <div class="circle-avatar"><img src="/images/avatars/3790554_bangtan_boys.jpg" alt="">
+                                        <div class="circle-avatar"><img src="/images/avatars/3790554_bangtan_boys.jpg"
+                                                alt="">
                                             <!--Здесь аватарка друга  -->
                                         </div>
                                         <span>Александра Комарницкая</span>
@@ -139,20 +140,20 @@ require "/DataBase/db.php";
                                         <span>Надежда Теньгаева</span>
                                     </div>
                                     <div class="block-friend">
-                                        <div class="circle-avatar"><img src="/images/avatars/" alt="">
+                                        <div class="circle-avatar"><img src="" alt="">
                                             <!--Здесь аватарка друга  -->
                                         </div>
                                         <span></span>
                                     </div>
                                     <div class="block-friend">
-                                        <div class="circle-avatar"><img src="/images/avatars/" alt="">
+                                        <div class="circle-avatar"><img src="" alt="">
                                             <!--Здесь аватарка друга  -->
                                         </div>
                                         <span></span>
                                     </div>
-                                    
-                                    
-                                    
+
+
+
 
 
                                 </div>
