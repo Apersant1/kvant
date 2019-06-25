@@ -321,6 +321,8 @@ body main .opportunuties {
 
 .block-friends {
   scrollbar-width: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
   overflow: auto;
   display: -ms-grid;
   display: grid;
